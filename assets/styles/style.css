@@ -71,7 +71,7 @@ ul {
 h1 {
   font-family: var(--heading-f);
   letter-spacing: 1.5px;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 }
 
 .brand {
@@ -136,6 +136,7 @@ main {
 
 h2 {
   text-align: center;
+  flex: 1 1 0;
 }
 
 .card > * {
@@ -172,7 +173,7 @@ h2 {
   border-radius: 0.5em;
   width: 50%;
   font-weight: 600;
-  flex: 1;
+  flex-basis: 0;
   font-size: 1rem;
 }
 
@@ -268,9 +269,6 @@ footer p {
   .brand {
     gap: 0.5em;
   }
-  h1 {
-    font-size: 1.6rem;
-  }
 
   .burger-bars {
     display: none;
@@ -296,6 +294,6 @@ footer p {
 
   /* FOOTER */
   footer {
-    border-top: 1px solid black;
+    border-top: 2px solid black;
   }
 }
